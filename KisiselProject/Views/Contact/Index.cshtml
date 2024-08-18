@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "İletişim";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">İletişim</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Adınız</label>
+                    <input type="text" class="form-control" id="name" placeholder="Adınızı girin">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-posta Adresiniz</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi girin">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mesajınız</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Mesajınızı yazın"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h3>İletişim Bilgileri</h3>
+            <p><strong>E-posta:</strong> example@example.com</p>
+            <p><strong>Telefon:</strong> +90 555 555 5555</p>
+            <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+        </div>
+    </div>
+</div>

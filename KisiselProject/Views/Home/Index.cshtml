@@ -1,0 +1,95 @@
+﻿
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Anasayfa</title>
+    <style>
+        body {
+            background-color: #fff7d4;
+            color: #333;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #ffeb3b;
+            padding: 50px 0;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        .post-card {
+            background-color: #fffde7;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .post-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .post-card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <h1>Blogunuza Hoş Geldiniz</h1>
+            <p>En son blog gönderilerini keşfedin</p>
+        </div>
+    </div>
+
+    <!-- Blog Posts Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card post-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Post 1</h5>
+                        <p class="card-text">Bu, blog postunun kısa bir açıklamasıdır.</p>
+                        <a href="#" class="btn btn-warning">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card post-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Post 2</h5>
+                        <p class="card-text">Bu, blog postunun kısa bir açıklamasıdır.</p>
+                        <a href="#" class="btn btn-warning">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card post-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Post 3</h5>
+                        <p class="card-text">Bu, blog postunun kısa bir açıklamasıdır.</p>
+                        <a href="#" class="btn btn-warning">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
